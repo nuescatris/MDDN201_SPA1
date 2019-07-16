@@ -4,149 +4,144 @@
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<title>Your Website</title>
+	<title>MDDN201_SPA1</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+    
+    <style type="text/css">
+        body{
+            margin: 0px; /* Often browsers have a 5px margin by deafult*/
+            background-image: url("img/background.jpg");
+            background-attachment: fixed;
+            background-size: cover; 
+            background-repeat: no-repeat;
+    </style>
+    
 </head>
 
 <body>
-
-<p>Notice how this content isn't centered. To center it we need to wrap it</p>
-
-	<section>
-		<h1>Here is some centered content, by wrapping it with a section tag</h1>
-		<p><em>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque est, egestas tristique quam nec, efficitur efficitur massa. Aenean in faucibus felis. Mauris ut ligula vestibulum, varius metus vitae, maximus orci. </em></p>
-
-		<p>Notice how if you change the width of your browser it stays in the center</p>
-	</section>
-
-	<section>
-		<p>This is a simple nav bar, which is full width of the page</p>
-	</section>
+    
 	<nav>
-		<h3>A nice navigation bar</h3>
-		<a href="#one">Link 1</a>
-		<a href="#two">Link 2</a>
-		<a href="#three">Link 3</a>
+        <ul>
+            <a href="#one">Cameras</a>
+            <a href="#two">Social Media</a>
+            <a href="#three">Manholes</a>
+        </ul>	
 	</nav>
-
+    
+    <header>
+        <br><br><br><br><br><br><br><br><br><br><br><br>
+        <h1 style=" font-family: palatino; font-size: 70px; text-align: center; letter-spacing: 8px;">Wellington Networks</h1>
+	</header>
+     
 	<section id="one">
-		<p><strong>Content number one</strong></p>
-		<p>By setting an a tag's href to "#one", it will link to a html element with the id of "one". <a href="https://css-tricks.com/hash-tag-links-padding/">More info about that here</a></p>
+        <br><br>
+        <hr color="white" size="2" width="100%">
+        <div id="content">
+            <h2>CCTV Cameras</h2>
+            <hr color="white" size="1" width="40%" align="left">
+		    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque est, egestas tristique quam nec, efficitur efficitur massa. Aenean in faucibus felis. Mauris ut ligula vestibulum, varius metus vitae, maximus orci.Sed neque est, egestas tristique quam nec, efficitur efficitur massa. Aenean in faucibus felis. Mauris ut ligula vestibulum, varius metus vitae, maximus orci.</p>
+            <br><br>
+            <div id="zoom">
+                <img src= "img/CAM_1.JPG" title= "Cam" height="200" width="200" class="center" border="3px solid #021a40"/>
+                
+                <img src= "img/CAM_2.JPG" title= "Cam" height="200" width="200" class="center" border="3px solid #021a40"/>
+                
+                <img src= "img/CAM_3.JPG" title= "Cam" height="200" width="200" class="center" border="3px solid #021a40"/>
+                
+                <br><br><br><br>
+                
+                <img src= "img/CAM_4.JPG" title= "Cam" height="200" width="200" class="center" border="3px solid #021a40"/>
+                
+                <img src= "img/CAM_5.JPG" title= "Cam" height="200" width="200" class="center" border="3px solid #021a40"/>
+                
+                <img src= "img/CAM_6.JPG" title= "Cam" height="200" width="200" class="center" border="3px solid #021a40"/>
+            
+            </div>
+        </div>
 	</section>
 
 	<section id="two">
-		<p><strong>Content number 2</strong></p>
+		<br><br>
+        <hr color="white" size="2" width="100%">
+        <div id="content">
+            <h2>Social Media</h2>
+            <hr color="white" size="1" width="38%" align="left">
+		    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque est, egestas tristique quam nec, efficitur efficitur massa. Aenean in faucibus felis. Mauris ut ligula vestibulum, varius metus vitae, maximus orci.Sed neque est, egestas tristique quam nec, efficitur efficitur massa. Aenean in faucibus felis. Mauris ut ligula vestibulum, varius metus vitae, maximus orci.</p>
+            <br><br>
+            <div id="zoom">
+                <img src= "img/cover.JPG" title= "Cam" height="200" width="200" class="center" border="3px solid #021a40"/>
+                
+                <img src= "img/cover.JPG" title= "Cam" height="200" width="200" class="center" border="3px solid #021a40"/>
+                
+                <img src= "img/cover.JPG" title= "Cam" height="200" width="200" class="center" border="3px solid #021a40"/>
+                
+                <br><br><br><br>
+                
+                <img src= "img/cover.JPG" title= "Cam" height="200" width="200" class="center" border="3px solid #021a40"/>
+                
+                <img src= "img/cover.JPG" title= "Cam" height="200" width="200" class="center" border="3px solid #021a40"/>
+                
+                <img src= "img/cover.JPG" title= "Cam" height="200" width="200" class="center" border="3px solid #021a40"/>
+            
+            </div>
+        </div>
 	</section>
 
 	<section id="three">
-		<p><strong>Content number 3</strong></p>
-	</section>
-
-	<header>
-		<section>
-			<h1>This header has a solid background and some padding</h1>
-			<p>There is also a section tag inside it to center this content</p>
-		</section>
-	</header>
-
-	
-
-	<section>
-		<h3>Grids</h3>
-
-		<p>Use grids to divide up or layout content. For example, putting an image on the left, and lots to text on the right</p>
-
-		<p>I've added a 'show' class so you can see where the grids are. Use chrome's web inspector tools to take a closer look</p>
-
-
-		<div class="g-row show"> <!--first wrap all grid cells in a g-row-->
-			<div class="g-50 show">
-				50% width .g-50
-			</div>
-			<div class="g-50 show">
-				50% width .g-50
-			</div>
-
-			<div class="g-30 show">
-				30% width .g-30
-			</div>
-
-			<div class="g-70 show">
-				70% width .g-70
-			</div>
-		</div>
-
-		<p>The other cool things about grids, is that 50% width means 50% of the div's <em>parent</em>. This means you can put cells in cells to get infinitly smaller sizes. The possiblities are endless!</p>
-
-		<div class="g-row show"> <!--first wrap all grid cells in a g-row-->
-			<div class="g-50 show">
-				<div class="g-50 show">
-					<div class="g-50 show">
-						50%
-					</div>
-					<div class="g-50 show">
-						50%
-					</div>
-				</div>
-				<div class="g-50 show">
-					50%
-				</div>
-			</div>
-			<div class="g-50 show">
-				50%
-			</div>
-		</div>
-
-		<p>Here's a simple page using all of these elements</p>
-	</section>
-
-	<header>
-		<section>
-			<h1>Infrastructure of Wellington</h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-		</section>
-	</header>
-
-	<section>
-		<div class="g-row">
-			<div class="g-30">
-				<img src="img/cover.jpg">
-			</div>
-			<div class="g-70 padded">
-				<h3>Example</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque est, egestas tristique quam nec, efficitur efficitur massa. Aenean in faucibus felis. Mauris ut ligula vestibulum, varius metus vitae, maximus orci.</p>
-			</div>
-		</div>
-
-		<div class="g-row">
-			<div class="g-30">
-				<img src="img/cover.jpg">
-			</div>
-			<div class="g-70 padded">
-				<h3>Example</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque est, egestas tristique quam nec, efficitur efficitur massa. Aenean in faucibus felis. Mauris ut ligula vestibulum, varius metus vitae, maximus orci.</p>
-			</div>
-		</div>
-
-		<div class="g-row">
-			<div class="g-30">
-				<img src="img/cover.jpg">
-			</div>
-			<div class="g-70 padded">
-				<h3>Example</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque est, egestas tristique quam nec, efficitur efficitur massa. Aenean in faucibus felis. Mauris ut ligula vestibulum, varius metus vitae, maximus orci.</p>
-			</div>
-		</div>
-
-		<div class="g-row">
-			<div class="g-30">
-				<img src="img/cover.jpg">
-			</div>
-			<div class="g-70 padded">
-				<h3>Example</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque est, egestas tristique quam nec, efficitur efficitur massa. Aenean in faucibus felis. Mauris ut ligula vestibulum, varius metus vitae, maximus orci.</p>
-			</div>
-		</div>
+        <br><br>
+        <hr color="white" size="2" width="100%">
+        <div id="content2">
+            <h2>Manholes</h2>
+            <hr color="white" size="1" width="29%" align="left">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque est, egestas tristique quam nec, efficitur efficitur massa. Aenean in faucibus felis. Mauris ut ligula vestibulum, varius metus vitae, maximus orci.</p>
+            <br>
+            <br>
+            
+            <div id="left_column">
+                <div class="g-row">
+                    <div class="g-30">
+                        <img src="img/cover.jpg">
+                    </div>
+                    <div class="g-70 padded">
+                        <h3>Example</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque est, egestas tristique quam nec, efficitur efficitur massa. Aenean in faucibus felis. Mauris ut ligula vestibulum, varius metus vitae, maximus orci.</p>
+                    </div>
+                </div>
+                <br><br>
+                <div class="g-row">
+                    <div class="g-30">
+                        <img src="img/cover.jpg">
+                    </div>
+                    <div class="g-70 padded">
+                        <h3>Example</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque est, egestas tristique quam nec, efficitur efficitur massa. Aenean in faucibus felis. Mauris ut ligula vestibulum, varius metus vitae, maximus orci.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="right_column">
+                <div class="g-row">
+                    <div class="g-30">
+                        <img src="img/cover.jpg">
+                    </div>
+                    <div class="g-70 padded">
+                        <h3>Example</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque est, egestas tristique quam nec, efficitur efficitur massa. Aenean in faucibus felis. Mauris ut ligula vestibulum, varius metus vitae, maximus orci.</p>
+                    </div>
+                </div>
+                <br><br>
+                <div class="g-row">
+                    <div class="g-30">
+                        <img src="img/cover.jpg">
+                    </div>
+                    <div class="g-70 padded">
+                        <h3>Example</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque est, egestas tristique quam nec, efficitur efficitur massa. Aenean in faucibus felis. Mauris ut ligula vestibulum, varius metus vitae, maximus orci.</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
 	</section>
 
 </body>

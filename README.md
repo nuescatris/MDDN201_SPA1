@@ -1,3 +1,4 @@
-# Example Template for SPA1
+# Changes Made
 
-These are some basic elements to help you out with SPA1. Hit the clone or download button to get it as a zip. 
+Previous Commit was unsuccessful as I accidentally 
+discarded the changes made on my files when attempting to push my work on git. Title Page has been made, all 3 networks have been laid out, all theres left to do is add the actual texts and images.
